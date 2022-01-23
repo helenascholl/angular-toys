@@ -1,0 +1,10 @@
+<mat-card>
+  <mat-card-title>{{ toy.name }}</mat-card-title>
+  <mat-card-content>
+    <p>Price: {{ toy.price }}€</p>
+    <p>Stock: {{ toy.stock }}</p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-flat-button color="primary" [disabled]="toy.stock < 1" (click)="buyClicked.emit(toy.id)">Buy!</button>
+  </mat-card-actions>
+</mat-card>

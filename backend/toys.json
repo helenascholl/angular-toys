@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "name": "Teddy Bear",
+    "price": 39.99,
+    "stock": 10
+  },
+  {
+    "id": 1,
+    "name": "Jojo",
+    "price": 69.99,
+    "stock": 69
+  },
+  {
+    "id": 2,
+    "name": "Ball",
+    "price": 19.99,
+    "stock": 1
+  },
+  {
+    "id": 3,
+    "name": "Remote controlled Schnitzel",
+    "price": 4.20,
+    "stock": 12
+  }
+]

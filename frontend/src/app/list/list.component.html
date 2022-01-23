@@ -1,0 +1,4 @@
+<mat-card>
+  <mat-card-title>Toys</mat-card-title>
+  <app-item *ngFor="let toy of toys" [toy]="toy" (buyClicked)="buy($event)"></app-item>
+</mat-card>
